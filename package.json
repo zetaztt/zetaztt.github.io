@@ -1,0 +1,30 @@
+{
+	"name": "zetaztt.github.io",
+	"version": "0.0.1",
+	"description": "zeta home page",
+	"main": "index.js",
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zetaztt/zetaztt.github.io.git"
+	},
+	"author": "zeta",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zetaztt/zetaztt.github.io/issues"
+	},
+	"homepage": "https://github.com/zetaztt/zetaztt.github.io#readme",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"type": "module",
+	"dependencies": {
+		"tsx": "^4.21.0"
+	}
+}
