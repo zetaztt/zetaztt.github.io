@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import * as csv from "csv/sync";
 
-export const textsPath = "../../docs/poe2-trade-texts.csv";
+export const textsPath = "../../docs/poe2/trade-texts.csv";
 
 export interface TextData {
     key: string;
